@@ -1,0 +1,73 @@
+body {
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    font-size: large;
+    font-weight: 400;
+}
+
+h1 {
+    position: relative;
+    right: 17px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.card {
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.playbtn {
+    margin-top: 50px;
+}
+
+.checked {
+    background-color: red;
+}
+
+#balldiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 100px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+#numball {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    color: blue;
+    font-size: 100px;
+    border-radius: 100%;
+    text-align: center;
+}
